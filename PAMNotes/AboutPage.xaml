@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PAMNotes.AboutPage"
+             Title="AboutPage">
+    <VerticalStackLayout>
+        <Label 
+            Text="Este é meu primeiro projeto de Mobile, um bloco de notas simples, porém eficaz (link abaixo para meu git)"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Button
+            x:Name="AboutButton"
+            Text="Saiba mais"
+            Clicked="AboutButton_Clicked"
+            WidthRequest="150"/>
+    </VerticalStackLayout>
+</ContentPage>
